@@ -10,3 +10,5 @@ windows版をダウンロードをクリックしたらあとは同意してい�
 ・Microsoft Visual Studio Community 2019をインストール
 vs codeでインテリンスできるらしいが手順が多いため
 ・今回はunity 2021.3.29で解説するが基本的な操作に変わりはない
+# 3.Unityの画面と用語
+
