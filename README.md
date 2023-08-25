@@ -62,7 +62,16 @@ Cube(1)～(3),PistonのRotaltionを(0,0,90)に変更。
 追加したGameObjectすべてを選択した状態でインスペクタ－の一番下のAddComponetをクリックし、Rigidbodyを追加する。これで剛体の性質を持つようになった。Wire,Wire(1),PistonにFixedJointを追加、Wire,Wire(1)にもう一回FixedJointを追加する。WireのそれぞれのConnectedBodyにはCylinder(1),(2)を追加する。Wire(1)のConnectedBodyにはCylinder(3),(4)を追加する。PistonのConnectedBodyにはCubeを追加する。Cylinder(1),(3),(4)にはHingeJointを追加し、ConnectedBodyはそれぞれ、Roller,Cylinder(2),Cubeを追加、Axisは(0,1,0),Ancerは(0,-1,0)にする。
 
 MainCameraのPositionを(10,4,15)にし、Rotationは(0,180,15)に、Cube(2)
-のmeshRenderの隣のチェックを押してメッシュを非表示にする。
+のmeshRenderの隣のチェックを押してメッシュを非表示にする。Cylinder (1)～(4)にアセットにあるRedを追加する。追加はそれぞれのGameObjectのインスペクターかSceneビュー(画面中央部にある)にドラッグアンドドロップ
+
 
 右三角の再生ボタンをクリックすると、機構が動き出す。
+
+# 4.2　簡易的な車をスクリプトで操作する
+car.unitypackageをインポートする。Car_Sampleにはサンプルが入っているため、実行ボタンから動かすことができる。
+
+では実際に作ってみよう。car_Createに途中まで作ったものがあるためこれを使う。Body_L_Eはコピペできるので、１回コピペした後、名前をCar_Rに変更し、Rotationを(0,180,0)にする。前後が分かるようにマテリアルをタイヤかなんかに着ける。今アセットにあるBlackを使ってもいいが今回は新規でマテリアルを作る方法を紹介する。アセットのところで右クリック→Create→Material→MainMapのAlbedを変更する。それをタイヤとかに着けて前後の目印にするといい。
+
+2つあるbodyの内片方にFixesJointを追加してもう片方のBodyとくっつける。Car_Lの子要素のCylinderどちらか一つと、Car_Rの子要素のCylinderどちらか一つにMotor.csをつけ、Car_Rの子要素のCylinderのMotor.csのLeftのチェックボックスを外す。実行時にＴキーを押すと左のモーターが前進、Ｆキーで後進,Uキーで右モータが前進、Jキーで後進する。
+
 
