@@ -74,4 +74,7 @@ car.unitypackageをインポートする。Car_Sampleにはサンプルが入っ
 
 2つあるbodyの内片方にFixesJointを追加してもう片方のBodyとくっつける。Car_Lの子要素のCylinderどちらか一つと、Car_Rの子要素のCylinderどちらか一つにMotor.csをつけ、Car_Rの子要素のCylinderのMotor.csのLeftのチェックボックスを外す。実行時にＴキーを押すと左のモーターが前進、Ｆキーで後進,Uキーで右モータが前進、Jキーで後進する。
 
+# 4.3 馬を走らせる
+horse.unitypachageをimportすると
+ 
 
