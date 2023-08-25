@@ -1,0 +1,33 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CameraScr : MonoBehaviour
+{
+    // Start is called before the first frame update
+    public GameObject horse;
+    Vector3 CameraPos;
+    Quaternion CameraQuo;
+
+
+    void Start()
+    {
+        CameraPos = transform.position;
+        CameraQuo = transform.rotation;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if(Input.GetMouseButton(1))
+        {
+            transform.position = horse.transform.position + new Vector3(0, 0.7f, 0);
+            transform.rotation = horse.transform.rotation;
+        }
+        else
+        {
+            transform.position = CameraPos;
+            transform.rotation = CameraQuo;
+        }
+    }
+}
