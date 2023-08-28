@@ -72,7 +72,16 @@ PistonのPositionを
 
 ## 4.2.3　ゲームオブジェクトのサイズ変更
 GameObjectを選択したのちShiftやCtrlを押しながら選択すると同時選択ができる。
-Rollerを選択したのちTransformのScaleを(2,1,2)にWire,Wire(1)のScaleを(0,1,2,0.1)にCylinder(1)~(4)のを(0.4,0.2,0.4)に変更。
+~~~
+Rollerを選択したのちTransformのScaleを
+(2,1,2)に
+
+Wire,Wire(1)のScaleを
+(0,1,2,0.1)に
+
+Cylinder(1)~(4)のを
+(0.4,0.2,0.4)に変更。
+~~~
 Scaleは左のクリップマークを押すと３方向同時に変更可能。CubeのScaleを(0.6，0.6，0.6)に変更。Cube(1)は(1,9,1),(2),(3)は(1,6,1),Pistonは(1,2.7,1)に変更。
 
 ## 4.2.3　ゲームオブジェクトを回転させる
