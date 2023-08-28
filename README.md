@@ -39,15 +39,21 @@ kikouをダブルクリックして選択し、画面上の右三角マークの
 ## 4.2.1　ワールド座標とローカル座標とは
 ワールド座標はUnityが定めた原点に対する座標。
 ローカル座標はそのGameObjectを基準にした座標。GameObjectが回転していたら内部の座標もそれに応じて回転する。ポジションやスケールに対しても同様。
+
+## 4.2.1　必要なゲームオブジェクトの追加
 GameObjectタブ→Create Empty、それをタップしてから再びGameObject→3DObject→Cylinderをタップ。Cylinderをタップした状態でコピペしてこれを７個用意。
 GameObject→3DObject→Cubeを選択しキューブを５個用意。こうすることでGameObjectがローカル座標で定義される。
 
+## 4.2.2　ゲームオブジェクトの配置移動
 ヒエラルキーのCylinderを選択(左クリック)してから右クリックしてRenameを押して名前をRollerに変更。Cylinder(5),Cylinder(6)をWire,Wire1に変更。Cube(4)をpistonに変更。
 ~~~
 ヒエラルキーからRollerを選択してインスペクターのtransformを選択してPositionを
-(x,y,z)=(0,3.25,0)に、Wire、Wire1のPositionを
+(x,y,z)=(0,3.25,0)に、
+
+Wire、Wire1のPositionを
 (2.5,2.7,1.2),
 (6.5,2.7,1.6)に
+
 Cylinder(1),(2),(3),(4)のPositionを
 (0.5,2.7,1.2),
 (4.5,2.7,1.2),
@@ -58,14 +64,18 @@ Cube,Cube(1),(2),(3)のPositionを
 (8.4,2.7,1.1),
 (7.1.6,1.4),
 (8.5,2.6,2.4),
-(8.5,2.6,0.3)に変更。PistonのPositionを
+(8.5,2.6,0.3)に変更。
+
+PistonのPositionを
 (10,2.7,1.4)に変更。
 ~~~
+
+## 4.2.3　ゲームオブジェクトのサイズ変更
 GameObjectを選択したのちShiftやCtrlを押しながら選択すると同時選択ができる。
-Rollerを選択したのちTransformのScaleを(2,1,2)にWire,Wire(1)のScaleを(0
-1,2,0.1)にCylinder(1)~(4)のを(0.4,0.2,0.4)に変更。
+Rollerを選択したのちTransformのScaleを(2,1,2)にWire,Wire(1)のScaleを(0,1,2,0.1)にCylinder(1)~(4)のを(0.4,0.2,0.4)に変更。
 Scaleは左のクリップマークを押すと３方向同時に変更可能。CubeのScaleを(0.6，0.6，0.6)に変更。Cube(1)は(1,9,1),(2),(3)は(1,6,1),Pistonは(1,2.7,1)に変更。
 
+## 4.2.3　ゲームオブジェクトを回転させる
 Transformから、Roller,Cylinder(1)～(4)のRotationを(90，0，0)に変更。Wire,Wire(1),
 Cube(1)～(3),PistonのRotaltionを(0,0,90)に変更。
 
