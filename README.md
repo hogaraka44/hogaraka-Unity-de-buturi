@@ -36,6 +36,7 @@ kikou.unitypackageをアセットのところにもっていくと画面右側�
 kikouをダブルクリックして選択し、画面上の右三角マークの再生ボタンをクリックするとスライダ・クランク機構が動き出す。
 
 # 4.2　スライダ・クランク機構を作る　
+https://github.com/hogaraka44/hogaraka-Unity-de-buturi/blob/main/pic2.png
 
 ## 4.2.1　ワールド座標とローカル座標とは
 ワールド座標はUnityが定めた原点に対する座標。
