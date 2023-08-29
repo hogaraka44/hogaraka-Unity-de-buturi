@@ -1,7 +1,7 @@
 # unityで物理
 # 1.導入(windows)版の場合
 はこちらを参考https://forpro.unity3d.jp/tutorial/unity-install-windows/
-そしたらhttps://unity.com/ja/download/に飛んでソフトをダウンロード
+そしたらhttps://unity.com/ja/download /に飛んでソフトをダウンロード
 windows版をダウンロードをクリックしたらあとは同意していく。
 # 2.注意点のまとめ
 ・初回unity　hub起動時には画面左上の人型アイコンをクリックし、ドロップダウンメニューから「サインイン」を選択し
