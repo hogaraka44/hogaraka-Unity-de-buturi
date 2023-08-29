@@ -1,7 +1,7 @@
 # unityで物理
 # 1.導入(windows)版の場合
 はこちらを参考https://forpro.unity3d.jp/tutorial/unity-install-windows/
-そしたらhttps://unity.com/ja/downloadに飛んでソフトをダウンロード
+そしたらhttps://unity.com/ja/download/に飛んでソフトをダウンロード
 windows版をダウンロードをクリックしたらあとは同意していく。
 # 2.注意点のまとめ
 ・初回unity　hub起動時には画面左上の人型アイコンをクリックし、ドロップダウンメニューから「サインイン」を選択し
@@ -29,13 +29,14 @@ https://user-images.githubusercontent.com/141324424/264015831-7b3ee965-3e7a-4d63
 アセット(参考画像1赤色の部分)
 画面下にあるファイルやコンポーネントの並んでいるところ
 
-# 4.1　Unityを触ってみる
-機構について参考 https://jp.misumi-ec.com/tech-info/categories/machine_design/md10/c1129.html
+# 4.1　Unityを触ってみる 
 
 完成版のパッケージのインストール
 kikou.unitypackageをアセットのところにもっていくと画面右側にImport Unity Pachageが出るので、Importを選択。
 kikouをダブルクリックして選択し、画面上の右三角マークの再生ボタンをクリックするとスライダ・クランク機構が動き出す。
 
+##参考画像2
+https://github.com/hogaraka44/hogaraka-Unity-de-buturi/issues/2
 # 4.2　スライダ・クランク機構を作る　
 https://github.com/hogaraka44/hogaraka-Unity-de-buturi/blob/main/pic2.png
 
