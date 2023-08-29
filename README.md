@@ -12,6 +12,7 @@ vs codeでインテリンスできるらしいが手順が多いため
 ・今回はunity 2021.3.29で解説するが基本的な操作に変わりはない
 # 3.Unityの画面と用語
 タブ・ヒエラルキー・インスペクター・コンポーネント・アセット
+https://github.com/hogaraka44/hogaraka-Unity-de-buturi/blob/main/picture4_1/pic1.png
 タブとは
 FileやEditが並んでいるところ
 
