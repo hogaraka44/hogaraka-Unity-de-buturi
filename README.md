@@ -12,10 +12,11 @@ vs codeでインテリンスできるらしいが手順が多いため
 ・今回はunity 2021.3.29で解説するが基本的な操作に変わりはない
 # 3.Unityの画面と用語
 タブ・ヒエラルキー・インスペクター・コンポーネント・アセット
-https://github.com/hogaraka44/hogaraka-Unity-de-buturi/blob/main/picture4_1/pic1.png
+
 タブとは
 FileやEditが並んでいるところ
-
+## 参考画像
+https://user-images.githubusercontent.com/141324424/264015831-7b3ee965-3e7a-4d63-893d-0027b46b95ab.png
 ヒエラルキーとは
 画面左のDirectionnal LightやMain Cameraが並んでいるところ。GameObject型で定義されたゲームオブジェクトが並んでいる。
 
