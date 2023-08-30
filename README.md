@@ -35,14 +35,21 @@ https://user-images.githubusercontent.com/141324424/264015831-7b3ee965-3e7a-4d63
 kikou.unitypackageをアセットのところにもっていくと画面右側にImport Unity Pachageが出るので、Importを選択。
 kikouをダブルクリックして選択し、画面上の右三角マークの再生ボタンをクリックするとスライダ・クランク機構が動き出す。
 
-##参考画像2
+## 参考画像2
 https://github.com/hogaraka44/hogaraka-Unity-de-buturi/issues/2
 # 4.2　スライダ・クランク機構を作る　
+
+## 参考画像
 https://github.com/hogaraka44/hogaraka-Unity-de-buturi/blob/main/pic2.png
 
 ## 4.2.1　ワールド座標とローカル座標とは
 ワールド座標はUnityが定めた原点に対する座標。
 ローカル座標はそのGameObjectを基準にした座標。GameObjectが回転していたら内部の座標もそれに応じて回転する。ポジションやスケールに対しても同様。
+
+## 参考画像　
+(この場合緑の矢印の方向がローカル座標のY軸。また赤がX軸,青がZ軸、ワールド座標は右上のキューブっぽいやつの緑がY軸。また赤がX軸,青がZ軸なのは一緒。
+)
+https://github.com/hogaraka44/hogaraka-Unity-de-buturi/issues/3
 
 ## 4.2.1　必要なゲームオブジェクトの追加
 GameObjectタブ→Create Empty、それをタップしてから再びGameObject→3DObject→Cylinderをタップ。Cylinderをタップした状態でコピペしてこれを７個用意。
