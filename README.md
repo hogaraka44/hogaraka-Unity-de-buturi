@@ -100,17 +100,31 @@ cube(2),(3)は(1,6,1),
 Pistonは(1,2.7,1)に変更。
 ~~~
 ## 4.2.3　ゲームオブジェクトを回転させる
-Transformから、Roller,Cylinder(1)～(4)のRotationを(90，0，0)に変更。Wire,Wire(1),
-Cube(1)～(3),PistonのRotaltionを(0,0,90)に変更。
-
+~~~
+Transformから、Roller,Cylinder(1)～(4)のRotationを(90，0，0)に変更。
+Wire,Wire(1),Cube(1)～(3),PistonのRotaltionを(0,0,90)に変更。
+~~~
 いままでは出来合いコンポーネントを使ってきたので
 ここからはコンポーネントを追加していきます。
 
-追加したGameObjectすべてを選択した状態でインスペクタ－の一番下のAddComponetをクリックし、Rigidbodyを追加する。これで剛体の性質を持つようになった。Wire,Wire(1),PistonにFixedJointを追加、Wire,Wire(1)にもう一回FixedJointを追加する。WireのそれぞれのConnectedBodyにはCylinder(1),(2)を追加する。Wire(1)のConnectedBodyにはCylinder(3),(4)を追加する。PistonのConnectedBodyにはCubeを追加する。Cylinder(1),(3),(4)にはHingeJointを追加し、ConnectedBodyはそれぞれ、Roller,Cylinder(2),Cubeを追加、Axisは(0,1,0),Ancerは(0,-1,0)にする。
+追加したGameObjectすべてを選択した状態でインスペクタ－の一番下のAddComponetをクリックし、
+Rigidbodyを追加する。これで剛体の性質を持つようになった。
+~~~
+Wire,Wire(1),PistonにFixedJointを追加、Wire,Wire(1)にもう一回FixedJointを追加する。
+WireのそれぞれのConnectedBodyにはCylinder(1),(2)を追加する。
+Wire(1)のConnectedBodyにはCylinder(3),(4)を追加する。
+PistonのConnectedBodyにはCubeを追加する。
+
+Cylinder(1),(3),(4)にはHingeJointを追加し、
+ConnectedBodyはそれぞれ、Roller,Cylinder(2),Cubeを追加、Axisは(0,1,0),Ancerは(0,-1,0)にする。
+
 
 MainCameraのPositionを(10,4,15)にし、Rotationは(0,180,15)に、Cube(2)
-のmeshRenderの隣のチェックを押してメッシュを非表示にする。Cylinder (1)～(4)にアセットにあるRedを追加する。追加はそれぞれのGameObjectのインスペクターかSceneビュー(画面中央部にある)にドラッグアンドドロップ
+のmeshRenderの隣のチェックを押してメッシュを非表示にする。
+Cylinder (1)～(4)にアセットにあるRedを追加する。
+~~~
 
+追加はそれぞれのGameObjectのインスペクターかSceneビュー(画面中央部にある)にドラッグアンドドロップ
 
 右三角の再生ボタンをクリックすると、機構が動き出す。
 
