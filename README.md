@@ -88,7 +88,7 @@ Rollerを選択したのちTransformのScaleを
 (2,1,2)に
 
 Wire,Wire(1)のScaleを
-(0,1,2,0.1)に
+(0.1,2,0.1)に
 
 Cylinder(1)~(4)のを
 (0.4,0.2,0.4)に変更。
